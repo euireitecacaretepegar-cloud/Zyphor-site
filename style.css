@@ -1,0 +1,57 @@
+body {
+  margin:0;
+  font-family: Arial;
+}
+
+#intro {
+  background:white;
+  height:100vh;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.logo {
+  width:200px;
+}
+
+.desc {
+  width:600px;
+  margin-top:20px;
+}
+
+#startBtn {
+  margin-top:120px;
+  padding:20px 60px;
+  background:white;
+  border:6px solid black;
+  font-size:24px;
+  cursor:pointer;
+}
+
+#chat {
+  background:black;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.face-container {
+  position:relative;
+}
+
+#face {
+  width:300px;
+}
+
+#mouth {
+  position:absolute;
+  bottom:60px;
+  left:50%;
+  transform:translateX(-50%);
+  width:100px;
+}
